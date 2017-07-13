@@ -1,0 +1,3 @@
+fire_cannon: 	  player fires
+CannonExplode:    playerBullet hits entities
+ShipExplodes:     ship life < 0
