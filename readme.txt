@@ -1,5 +1,5 @@
 Sink-Em
-========
+
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 
 BUILT THIS GAME USING IMPACTJS
