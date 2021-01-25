@@ -9,5 +9,10 @@ Hosted directly from [this Github repository](https://leanseverino1022.github.io
 ![](media/use/instructions.jpg)
 
 
+## Clone project
+
+```
+git clone https://github.com/LeanSeverino1022/sink-Em.git
+```
 
 
