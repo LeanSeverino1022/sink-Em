@@ -12,6 +12,7 @@
 			font-size: 16px;
 		}
 
+	
 		#log, #guide {
 				border: 2px blue solid;
 				width: 48%;
@@ -35,7 +36,9 @@
 		}
 		
 		#canvas {
-			position: absolute;
+			display: block;
+			margin: 0 auto;
+			/* position: absolute; */
 			left: 0;
 			right: 0;
 			top: 0;
@@ -51,8 +54,10 @@
 
 		.onlyForDesktopMsg {
 			text-align: center;
-			font-size: 1.5rem;
+			/* font-size: 1.5rem; */
 			padding: 10px;
+			font-size: 4rem;
+
 		}
 	</style>
 
@@ -63,7 +68,7 @@
 	<div>
 	<!-- <h1 id = "guide" style ="margin: 0 auto; width: 50%; text-align: center"> jdhfjdhjfhdjf </h1> -->
 	<div class="controls-ui">
-		<p class="onlyForDesktopMsg hidden">NOTE: This game is not playable on mobile devices. </p>
+		<p class="onlyForDesktopMsg hidden">😞 </br>This game is not playable on mobile devices. </p>
 
 		<h2>Controls:</h2>
 		<p><span class="key">Spacebar:</span> fire!</p>
