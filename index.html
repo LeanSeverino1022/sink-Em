@@ -3,21 +3,27 @@
 <head>
 	<title>Sink'em Game</title>
 	<style type="text/css">
-		html {
-			
+
+		html {			
 			font-size: 16px;
+		}
+
+		*,*:before,*:after{
+
+			padding:0;
+			margin:0;
+			box-sizing:border-box;
 		}
 
 		body {
 			min-height: 100vh;
-			background-color: #f6ebe9;
+			line-height: 1.6;
+			background-color: #e1e1e1;
 			color: #fff;
 			font-family: helvetica, arial, sans-serif;
-			margin: 0;
-			padding: 0;
 		}
 
-	
+		/* for debugging only. */
 		#log, #guide {
 				border: 2px blue solid;
 				width: 48%;
@@ -59,7 +65,6 @@
 
 		.onlyForDesktopMsg {
 			text-align: center;
-			/* font-size: 1.5rem; */
 			padding: 10px;
 			font-size: 4rem;
 			color: #6b615f;
